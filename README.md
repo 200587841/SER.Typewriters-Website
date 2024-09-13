@@ -1,6 +1,6 @@
 # SER. Typewriters Website
 
-Website developed by my group to demonstrate HTML, CSS, and PHP skills. *Languages: HTML + CSS + PHP
+Website developed by my group to demonstrate HTML, CSS, and PHP skills.
 
 
 **TASKS:**
