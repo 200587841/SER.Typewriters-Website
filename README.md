@@ -1,6 +1,7 @@
 # SER. Typewriters Website
 
 Website developed by my group to demonstrate HTML, CSS, and PHP skills.
+Access the live version: https://proreports.net/sergio.cutrim/GroupAssignmentHTML/about.php
 
 
 **TASKS:**
