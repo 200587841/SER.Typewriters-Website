@@ -3,7 +3,7 @@
 Website developed by my group to demonstrate HTML, CSS, and PHP skills.
 https://proreports.net/sergio.cutrim/GroupAssignmentHTML/index.php
 
-**TASKS:**
+- **TASKS:**
 
 Design, Home, Footer and Nav - Natalia S Dias
 
