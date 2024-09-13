@@ -1,4 +1,4 @@
-# SER.Typewriters-Website
+# SER. Typewriters Website
 
 Website developed by my group to demonstrate HTML, CSS, and PHP skills. *Languages: HTML + CSS + PHP
 
