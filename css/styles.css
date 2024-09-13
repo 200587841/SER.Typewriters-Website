@@ -1,0 +1,535 @@
+@charset "UTF-8";
+
+/*
+Special Elite: CSS class (Typewriter font)
+.special-elite-regular {
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+Merriweather: CSS classes (Complementary font)
+.merriweather-light {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.merriweather-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.merriweather-black {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+.merriweather-light-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+.merriweather-regular-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.merriweather-bold-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.merriweather-black-italic {
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+*/
+
+/* PAGES: INDEX - HOME --------------------------------------------  */
+@media screen and (max-width: 700px) {
+
+  .main,
+  .navbar {
+    flex-direction: column;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  margin: 1.7rem;
+  background-color: #F1EACE;
+}
+
+.aboutProduct {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-size: 1rem;
+  letter-spacing: .08rem;
+  word-spacing: .24rem;
+  line-height: 1.5rem;
+  text-align: center;
+  margin: 60px 200px;
+  min-width: 400px;
+}
+
+.aboutProduct>p {
+  text-align: justify;
+}
+
+.adj {
+  font-family: 'Special Elite';
+  font-size: 1.3rem;
+  position: relative;
+  /*display all - same line*/
+  display: inline-block;
+  padding: 0 80px 40px 80px;
+  margin: 0;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1600px;
+}
+
+.products>div {
+  /* Calculate width and in maximum 3 per row */
+  flex: 0 1 calc(33.33% - 2rem);
+  margin: 1rem;
+  max-width: 300px;
+}
+
+.products>div img {
+  width: 100%;
+  height: auto;
+}
+
+.products div p:nth-of-type(1) {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-size: .9rem;
+  text-transform: uppercase;
+  float: left;
+  padding-left: 0.5rem;
+  padding-top: .5rem;
+  margin: 0;
+}
+
+.price {
+  font-family: 'Special Elite';
+  font-size: 1.4rem;
+  float: right;
+  color: white;
+  background-color: black;
+  margin: 0;
+  padding: 0.3rem;
+}
+
+.feedback {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+
+}
+
+.feedback1,
+.feedback2 {
+
+  width: calc (50%-2rem);
+  max-width: 400px;
+  margin: 2rem 1rem;
+  background-color: white;
+
+  overflow: hidden;
+
+}
+
+.feedbackImg {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.feedback1>div,
+.feedback2>div {
+  padding: 1.1rem;
+  text-align: center;
+}
+
+.feedbackProdUser {
+  font-family: 'Special Elite', system-ui;
+  font-size: .9rem;
+}
+
+.feedbackText {
+  font-family: "Merriweather", serif;
+  font-size: .9rem;
+}
+
+/* PAGES: ABOUT US --------------------------------------------  */
+/* PAGES: HELP -------------------------------------------- */
+/* PAGES: HELP -------------------------------------------- */
+
+h2 {
+  font-size: 1.2rem;
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-style: normal;
+  padding-left: 3rem;
+  text-align: center;
+  color: black;
+  margin-bottom: -0.5rem;
+
+}
+
+h4 {
+  font-size: 0.8 rem;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 3rem;
+  text-align: center;
+  color: black;
+}
+
+h5 {
+  font-size: 1.2 rem;
+  font-family: "Merriweather", serif;
+  font-weight: 800;
+  font-style: normal;
+  text-align: center;
+  color: black;
+
+}
+
+.title {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.questions {
+
+  display: flex;
+  background-color: #F1EACE;
+
+}
+
+.question {
+  font-family: "Merriweather", serif;
+  background-color: white;
+
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+  margin-top: 10px;
+  width: 40%;
+  line-height: 2;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.button-container {
+  display: flex;
+}
+
+#button {
+  font-family: "Merriweather", serif;
+  margin-left: auto;
+  padding: 10px 20px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+#button:hover,
+#button2:hover {
+  background-color: gray;
+}
+
+#button2 {
+  margin-right: auto;
+  padding: 10px 20px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+#button3 {
+  margin: auto;
+  padding: 10px 20px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+/* PAGES: SUPPORT --------------------------------------------  */
+.container {
+  display: flex;
+  align-items: center;
+  /* Align items to the top */
+}
+
+.form-container {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.support-img {
+  margin-left: auto;
+  margin-right: 26px;
+}
+
+.support-img img {
+  max-width: 98%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.form-container {
+  font-family: "Merriweather", serif;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: .08rem;
+  word-spacing: .24rem;
+  line-height: 1.5rem;
+  min-width: 490px;
+  max-width: 550px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 55px;
+  float: left;
+  margin: 30px auto;
+  margin-left: 45px;
+  margin-right: 26px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+#product {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+#product option {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+textarea {
+  height: 120px;
+}
+
+input[type="submit"] {
+  background-color: #000000;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #535853;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+
+/* Additional Styles */
+.form-container h1 {
+  color: #2f2f30;
+}
+
+.form-container p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.form-container textarea {
+  resize: vertical;
+}
+
+.support-img {
+  float: right;
+  margin-left: 20px;
+}
+
+/* HEADER -------------------------------------------- */
+header {
+  padding: 60px;
+  text-align: center;
+  align-items: center;
+  width: auto;
+  background-color: black;
+  height: 100px;
+}
+
+header>img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header>div {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+
+header>div>h1 {
+  font-family: 'Special Elite', system-ui;
+  font-size: 2.4rem;
+  color: white;
+  margin: 0;
+}
+
+header>div>h2 {
+  font-size: 1.2rem;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  margin: 0;
+}
+
+/* NAV ---------------------------------------------- */
+#navbar ul {
+  /*take off the bullet point style*/
+  list-style: none;
+  margin: 2rem 0 2rem 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+#navbar li {
+  font-family: 'Special Elite';
+  font-size: 1.2rem;
+  text-decoration: none;
+  display: block;
+  position: relative;
+  padding: 15px 0;
+}
+
+#navbar ul li {
+  position: relative;
+  /*display all - same line*/
+  display: inline-block;
+}
+
+.navButton:link,
+.navButton:visited {
+  padding: 0.5rem 2rem;
+  text-decoration: none;
+  background-color: white;
+  color: black;
+}
+
+.navButton::after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: black;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+/* mouse over link */
+.navButton:hover::after {
+  width: 70%;
+  left: 15%;
+}
+
+/* selected link */
+.active::after {
+  width: 70%;
+  left: 15%;
+}
+
+/* FOOTER -------------------------------------------- */
+div.footer {
+  float: right;
+  /*align on the right side*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1.7rem 1rem 0;
+  /*align text and image*/
+}
+
+div.footer>p,
+div.footer>a {
+  display: inline-block;
+  /*text and image - same line*/
+  font-family: 'Special Elite', system-ui;
+  color: black;
+  text-decoration: none;
+}
+
+div.footer>img {
+  display: inline-block;
+  /*text and image - same line*/
+}
